@@ -1,0 +1,6 @@
+{
+  "name": "EV Charge Management System",
+  "description": "Production-grade smart EV charging ecosystem management platform, supporting hardware integration, fleet management, and M-PESA payment processing for African markets.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
