@@ -1,12 +1,8 @@
 import express from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
-import { fileURLToPath } from 'url';
 import { HardwareController } from './server/HardwareController';
 import { Charger } from './src/types';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 let chargers: Charger[] = [
   { id: "1", name: "Battery A", status: "IDLE", voltage: 48, current: 0, percentage: 0, batteryChemistry: 'Li-ion', temperature: 35 },
